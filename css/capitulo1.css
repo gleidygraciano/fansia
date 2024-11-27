@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.fondo-container{
+width: 100%;
+height: 50%;
+}
+.alkura{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    z-index: 5;
+    width: 700px;
+}
+.primers{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 5;
+    width: 700px;
+}
+
+.boton-chiquito-1 img{
+    position: absolute;
+    top: 70%;
+left: 45%;
+    z-index: 5;
+    width: 150px;
+    cursor: pointer;
+}
+
+.boton-chiquito-1 img:hover{
+    transform: scale(1.5);
+}
+.boton-chiquito-2 img{
+    position: absolute;
+    top: 70%;
+left: 60%;
+    z-index: 5;
+    width: 150px;
+    cursor: pointer;
+}
+.boton-chiquito-2 img:hover{
+    transform: scale(1.5);
+}
+.atras img{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    z-index: 5;
+    width: 160px;
+    cursor: pointer;
+}
+.atras img:hover{
+    transform: scale(1.5);
+}
+
+

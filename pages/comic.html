@@ -5,27 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/comic.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="comic-backgorund">
-            <img src="" alt=""><!-- imagen de fondo -->
-            <div class="comic-elements">
-           <!-- primeros elementos dentro de un div -->
-            </div>
-        </div>
-    </div>
+    <div class="contenedor">
 
-    <!-- escena 1 del comic -->
-    <div class="container">
-        <div class="comic-backgorund">
-            <img src="" alt=""><!-- imagen de fondo -->
+        <div class="comic-background">
+
             <div class="comic-elements">
-           <!-- primeros elementos dentro de un div -->
+                <img data-bs-toggle="modal" data-bs-target="#exampleModal" class="instrucciones"
+                    src="../assets/imagenes/instrucciones.webp" alt="">
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div>
+                            <div>
+                            </div>
+                            <div class="modal-body">
+                                <img src="../assets/imagenes/INSTRUCCIONES2.webp" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="alkot">
+                    <img src="../assets/imagenes/muñequitaalka.svg" alt="">
+                </div>
+
+
+
+
+                <a href="../pages/escena1.html">
+                    <div class="botoncito">
+                        <img class="boton" src="../assets/imagenes/botoncitopiramide.webp" alt="">
+                    </div>
+                </a>
+
+
+                <div class="orkot">
+                    <img src="../assets/imagenes/orkot.svg" alt="">
+
+                </div>
+
+                <div class="comic-elements">
+
+
+                </div>
+
             </div>
+
         </div>
-    </div>
+
+
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/comic.js"></script>
 </body>
 
 </html>
