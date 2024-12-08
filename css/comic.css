@@ -111,7 +111,25 @@ height: 100%;
 }
 
 .modal-body img{
-    width: 80%;
+    width:100%;
+    position: absolute;
+ top: 3%;
+ right: 3%;
+ cursor: pointer;
 }
+
+.casa-contenedor img{
+    width:8vh;
+    position: absolute;
+    cursor: pointer;
+    top: 5%;
+    left: 90%;
+
+}
+
+.casa-contenedor img:hover{
+    transform: scale(1.5);
+}
+
 
 

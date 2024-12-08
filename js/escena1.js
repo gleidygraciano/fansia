@@ -8,7 +8,7 @@ const image2 =document.querySelector('.image-2')
 setTimeout(() => {
     image1.style.opacity = 0
     image2.style.opacity = 1
-}, 8000)
+}, 6000)
 
 
 

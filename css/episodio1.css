@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.imagen{
+    position: absolute;
+    top: 45%;
+left: 1%;
+    z-index: 5;
+    width: 25%;
+}
+
+.nube{
+    position: absolute;
+    top: 45%;
+left: 25%;
+    z-index: 5;
+    width: 25%;
+}
+
+
+
+.carousel-control-next-icon{
+    color: blue !important;
+}
+
+.activador{
+    position: absolute;
+    top: 60%;
+left: 11%;
+    z-index:8;
+    width: 5%;
+    animation: activador-mover 1s infinite linear;
+    cursor: pointer;
+}
+
+@keyframes activador-mover{ /* para que la luz parpadee */
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+    }
+
+ .luz{
+	width: 200px;
+	position: absolute;
+	top: 54%;
+	left: 7.5%;
+	z-index: 5;
+	animation: luz-mover 1s infinite linear;
+
+}
+ 
+@keyframes luz-mover{ /* para que la luz parpadee */
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+    }
+
+    .textulu{
+        position: absolute;
+        top: 50%;
+    left: 25%;
+        z-index:8;
+        cursor: pointer;
+        font-size: 150%;
+    }
+
