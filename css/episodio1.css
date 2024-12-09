@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .imagen{
     position: absolute;
     top: 45%;
@@ -73,3 +75,121 @@ left: 11%;
         font-size: 150%;
     }
 
+
+    .brillo {
+        position: absolute;
+        top: 45%;
+        left: 40%;
+        z-index: 5;
+        width: 25%;
+        animation: flotar 2s infinite;
+        transition: opacity 1s;
+
+      }
+
+  
+      
+      
+      @keyframes flotar {
+        0% {
+          transform: translateY(0);
+        }
+        55% {
+          transform: translateY(-15px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      .puerta{
+        position: absolute;
+        top: 25%;
+        left: 65%;
+        z-index: 5;
+        width: 25%;
+      }
+
+      .resplandor{
+        position: absolute;
+        top: 30%;
+        right: 19%;
+        z-index: 5;
+        width: 10%;
+        height:60%;
+        background: radial-gradient(rgb(0, 110, 255), #00ff2a);
+        opacity: 0;
+        animation: parpadear 2s infinite;
+        border-radius: 20%;
+      }
+
+      @keyframes parpadear {
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 0;
+        }
+      }
+
+
+
+      .camino {
+        position: absolute;
+        top: 40%;
+        right: 80%;
+        z-index: 5;
+        width: 15%;
+        cursor: pointer;
+        transition: left 0.5s, opacity 1s;
+      }
+      
+      .camino.desvanecer {
+        opacity: 0;
+      }
+
+      .activadore{
+        position: absolute;
+        top: 60%;
+    left: 11%;
+        z-index:8;
+        width: 5%;
+        animation: activadore-mover 1s infinite linear;
+        cursor: pointer;
+    }
+    
+    @keyframes activadore-mover{ /* para que la luz parpadee */
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 100;
+        }
+        }
+
+        .atrasi{
+            position: absolute;
+            top: 15%;
+            left: 2%;
+            z-index: 5;
+            width: 160px;
+            cursor: pointer;
+        }
+        .atrasi:hover{
+            transform: scale(1.5);
+        }
+        
+
+      
+        .luze {
+            z-index: 5;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: radial-gradient(rgb(92, 4, 4), #47d110);
+            box-shadow: 0 0 10px rgba(0, 42, 231, 0.5);
+          }
